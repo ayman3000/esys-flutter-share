@@ -3,7 +3,7 @@
 
     <application>
         <provider
-            android:name="de.esys.esysfluttershare.EsysFlutterShareFileProvider"
+            android:name="${applicationName}"
             android:authorities="${applicationId}.fileprovider.github.com/orgs/esysberlin/esys-flutter-share"
             android:exported="false"
             android:grantUriPermissions="true">
